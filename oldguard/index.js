@@ -3,7 +3,9 @@ const esbuild = require("esbuild");
 
 
 readline.emitKeypressEvents(process.stdin);
-process.stdin.setRawMode(true);
+process.stdin.setRawMode(false)
+                        
+                               );
 
 
 const header = () => {
